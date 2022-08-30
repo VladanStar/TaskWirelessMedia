@@ -6,9 +6,56 @@
     <title>Wireless Media Task</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
  
 </head>
 <body>
+    <header>
+		<img src="img/logo.png" alt="" class="logo">
+		<ul class="menu-big">
+			<li class="home">
+				<a href="#">HOME</a>
+			</li>
+			<li>/</li>
+			<li class="about-us">
+				<a href="#">About us</a>
+			</li>
+			<li>/</li>
+			<li class="our-work"><a href="#">our work</a></li>
+			<li>/</li>
+			<li class="contact"><a href="#">contact</a></li>
+		</ul>
+		<ul class="menu-small">
+			<li class="home">
+				<a href="#">
+					<i class="fas fa-home"></i>
+				</a>
+			</li>
+			<li class="about-us">
+				<a href="#">
+					<i class="fas fa-question-circle"></i>
+				</a>
+			</li>
+			<li class="our-work">
+				<a href="#">
+					<i class="fas fa-graduation-cap"></i>
+				</a>
+			</li>
+			<li class="contact">
+				<a href="#">
+					<i class="fas fa-envelope"></i>
+				</a>
+			</li>    
+		</ul>
+		<ul  class="search">
+			<li class="burger-button" onclick="burgerMenu()">
+				<i class="fa fa-bars"  id="burger-button"></i>
+			</li>
+			<li onclick="search()">     
+				<i class="fa fa-search" id="search-button"></i>
+			</li>
+		</ul>
+	</header>
     
 
     <script src='main.js'></script>
