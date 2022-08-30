@@ -1,0 +1,128 @@
+body {
+    margin: 0 auto;
+	font-family: 'Arial';
+	background: white;
+}
+
+* {box-sizing:border-box}
+
+::selection { background: transparent; }
+::-moz-selection { background: transparent; }
+
+
+/*   TOP MENU   */
+
+header{
+    height: 84px;
+	display: grid;
+    grid-template-columns: 2fr 7fr 1fr;
+}
+
+img.logo {
+    padding: 20px 33px;
+    float: left;
+    line-height: 84px;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    float: left;
+    list-style-type: none;
+    overflow: hidden;
+    font-size: 17px;
+    text-transform: uppercase;
+	cursor: default;
+}
+
+ul li {
+    padding: 0px 10px;
+    float: left;
+    line-height: 84px;
+    display: block;
+    color: #bababa;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul li a {
+	color: #bababa;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+ul li i {
+	cursor: pointer;
+}
+
+ul.bottom-nav-responsive li {
+	cursor: pointer;
+}
+
+ul.bottom-nav-responsive li:hover {
+	font-size: 14px;
+}
+
+ul li.home a:hover, ul li.home a:active , ul li.home a:focus {
+    color: #bbd547;
+}
+
+ul li.about-us a:hover, ul li.about-us a:active , ul li.about-us a:focus {
+    color: #81b36e;
+}
+
+ul li.our-work a:hover, ul li.our-work a:active , ul li.our-work a:focus {
+    color: #429099;
+}
+
+ul li.contact a:hover, ul li.contact a:active , ul li.contact a:focus {
+    color: #1375b8;
+}
+
+.menu-big{
+    margin: 0 auto;
+	padding-left: 0;
+}
+
+.menu-small {
+	display: none;
+	font-size: 25px;
+}
+
+.back-to-top {
+	margin-right: 30px !important;
+	float: right;
+}
+
+.search {
+	float: right;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#burger {
+	display: none;
+}
+
+.burger-button {
+	display: none;
+}
+
+.search li:hover {
+	color: #bcd546;
+}
+
+#input-search {
+    padding: 0px;
+    margin-bottom: 5px;
+	width: 100%;
+	display: none;
+    text-align: center;
+	
+}
+
+input {
+	width: 95%;
+}
