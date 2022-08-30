@@ -1,0 +1,173 @@
+@media screen and (max-width: 480px) {
+	header {
+		grid-template-columns: 2fr 7fr;
+	}
+	
+	input {
+		text-align: center;
+		margin-bottom: 2px
+	}
+	
+	.text-part-small {
+		width: 100%;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		border-bottom: 1px solid #d5d5d5;;		
+	}
+	
+  	.main-content {
+		width: 65%;
+	}
+	
+	.main-conent-part {
+    	display: grid;
+    	grid-template-columns: 1fr;
+    	grid-gap: 5px;
+	}
+	
+	menu-small {
+		display: block;
+	}
+	
+	.menu-big {
+		display: none;
+	}
+	
+	.footer-nav {
+		display: none;
+	}
+	
+	footer {
+		grid-template-columns: 2fr 1fr;
+		margin-top: 50px;
+	}
+	
+	.text {
+		display: none;
+	}
+	
+	.what-we-do {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-row-gap: 25px;
+	}
+	
+	.main-content-text {
+		margin-bottom: 5px;	
+		text-align: center;
+    	font-size: 29px;
+	}
+	
+	.show-more {
+		margin-top: 0;
+	    margin-bottom: 15px;
+	}
+	
+	.social {
+		margin-left: 12px;
+	}	
+	
+	.back-to-top {
+		margin-right: 12px !important;
+	}
+	
+	img.logo {
+		padding: 0;
+		margin: 20px 10px;
+	}
+	
+	.search {
+		margin-right: 10px;	
+	}
+	
+	.search li {
+		padding: 0px;
+	}
+	
+	.slider-text {
+		font-size: 6vw;
+		margin-top: -1%;
+		margin-bottom: 20px;
+	}
+	
+	.text-part {
+		display: none;
+	}
+	
+	.burger-button {
+		display: block;
+	}
+	
+	li.burger-button {
+	  margin: -1px 15px;
+	}
+	
+	.dots-slider {
+		display: none;
+	}
+
+	ul.bottom-nav-responsive {
+		box-sizing: border-box;
+		border: 1px solid #dad7d7;
+		border-bottom: 0px;
+		color: white;
+		font-size: 13px;
+		width: 100%;
+		padding: 0;
+	}
+	
+	ul.bottom-nav-responsive li {
+		width: 100%;
+		line-height: 20px;
+		text-align: left;
+		color: white;
+		border-bottom: 1px solid white;
+	}
+
+	.prev, .next {
+		display: block;
+		position: absolute;
+		top: 100%;
+		width: auto;
+		padding: 16px 2vw;
+		color: #9d9d9c;
+		font-weight: bold;
+		font-size: 4vw;
+		user-select: none;
+		cursor: pointer;
+	}
+
+	.next {
+		right: 0;
+		border-radius: 3px 0 0 3px;
+	}
+
+	.prev:hover, .next:hover {
+		color: #bcd546;
+	}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 481px){
+
+	.menu-small {
+		display: block;
+		padding-left: 0px;
+	}
+	
+	.menu-small li {
+		padding: 0px 5%;
+	}
+	
+	.menu-big{
+		display: none;
+	}
+	
+	.footer-nav {
+		display: none;
+	}
+	
+	footer {
+		grid-template-columns: 1fr 1fr;
+	}
+}
